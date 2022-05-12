@@ -22,5 +22,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_PATH_DEV }}
+          server-dir: ${{ secrets.FTP_PATH_DEVELOP }}
           exclude: "[**/.**/**, .gitignore,  **/.git/**, **/node_modules/**, **/vendor/**, .editorconfig, README.md, **/src/**]"
