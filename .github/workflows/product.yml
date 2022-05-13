@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  deploy:
     name: Deploy to server
     runs-on: ubuntu-latest
     steps:
